@@ -1,5 +1,13 @@
-// switch between Darkmode/Lightmode
+// what i changed
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "G-55DLRTJ04T");
+
+    //switch between Darkmode/Lightmod
 const toggle = document.querySelector(".round");
 const slider = document.querySelector(".slider");
 toggle.addEventListener("click", modeSwitch);
@@ -64,6 +72,7 @@ Object.keys(songs).map((song_title) => {
     console.log(
       "If you don't know this song, we suggest you go to the lyrics page. You can play the song from that page too :)"
     );
+       
     if (!userHasClickedASong) {
       userHasClickedASong = true;
     }
