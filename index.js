@@ -84,3 +84,10 @@ Object.keys(songs).map((song_title) => {
 //     "resizable=yes, scroll=yes, location=1, titlebar=yes, width=800, height=900, top=10, left=10"
 //   );
 // });
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-55DLRTJ04T")
